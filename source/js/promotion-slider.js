@@ -40,9 +40,10 @@
   }
 
 let autoSlide = setInterval(function () {
-  sliderOperation.checkNextInput();
   nextSlide = (sliderOperation.findSelected() === buttons.length - 1) ? 0 : (sliderOperation.findSelected() + 1);
+  console.log(nextSlide);
   sliderOperation.showAllSelectedSlides(nextSlide + 1);
+  sliderOperation.checkNextInput();
 }, 3000);
 
   buttons.forEach(item => {

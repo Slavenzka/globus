@@ -722,8 +722,8 @@ li.slider__shown {
   height: 380px;
   -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
   opacity: 0; }
 
 .small__item--2 {
@@ -823,8 +823,8 @@ li.slider__shown {
   background-repeat: no-repeat;
   -webkit-transition-property: opacity;
   transition-property: opacity;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
   opacity: 0; }
 
 .large__item--1 {

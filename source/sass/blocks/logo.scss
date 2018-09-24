@@ -31,7 +31,12 @@
 }
 
 @media (max-width: $width__mobile-only) {
+  .logo {
+    padding: 0 40px;
+  }
+
   .logo__link {
+    display: inline-block;
     margin: 0;
     width: 100%;
     text-align: center;

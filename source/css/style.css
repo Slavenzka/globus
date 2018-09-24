@@ -320,7 +320,8 @@ li.slider__shown {
   display: inline-block;
   margin-top: 7px;
   margin-left: 6px;
-  vertical-align: top; }
+  vertical-align: top;
+  pointer-events: none; }
 
 @media (max-width: 1037px) {
   .nav {

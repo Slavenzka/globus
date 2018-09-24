@@ -2129,3 +2129,32 @@ li.slider__shown {
   .report__item {
     display: block;
     margin-bottom: 15px; } }
+
+.breadcrumbs__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 26px 0 25px 0;
+  list-style: none; }
+
+.breadcrumbs__link {
+  font-family: "Futura", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: black;
+  opacity: 0.4; }
+
+.breadcrumbs__item:not(:last-of-type) {
+  position: relative;
+  margin-right: 41px; }
+  .breadcrumbs__item:not(:last-of-type)::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: -23px;
+    width: 6px;
+    height: 6px;
+    background-color: #e7e7e8;
+    border-radius: 50%; }

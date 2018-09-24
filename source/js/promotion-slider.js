@@ -41,10 +41,9 @@
 
 let autoSlide = setInterval(function () {
   nextSlide = (sliderOperation.findSelected() === buttons.length - 1) ? 0 : (sliderOperation.findSelected() + 1);
-  console.log(nextSlide);
   sliderOperation.showAllSelectedSlides(nextSlide + 1);
   sliderOperation.checkNextInput();
-}, 3000);
+}, 5000);
 
   buttons.forEach(item => {
     item.addEventListener('click', function (evt) {

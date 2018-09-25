@@ -33,10 +33,10 @@
 .catalog__item {
   display: flex;
   margin-bottom: 30px;
-  padding: 24px 0;
   width: 222px;
   height: 285px;
   box-shadow: 0 10px 30px 0 $shadow-color__catalog;
+  overflow: hidden;
 }
 
 .catalog__link {
@@ -44,6 +44,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  padding: 24px 0;
   width: 100%;
 }
 
@@ -61,6 +62,7 @@
 
 .catalog__img {
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 .catalog__item:hover {
@@ -79,10 +81,13 @@
   .catalog__item {
     display: flex;
     margin-bottom: 30px;
-    padding: 10px 0;
     width: 222px;
     height: 250px;
     box-shadow: 0 10px 30px 0 $shadow-color__catalog;
+  }
+
+  .catalog__link {
+    padding: 10px 0;
   }
 
   .catalog__title {

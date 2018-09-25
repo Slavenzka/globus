@@ -13,6 +13,7 @@
 .nav__list {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -22,10 +23,6 @@
 
 .nav__item {
   display: block;
-}
-
-.nav__item--catalogue {
-  padding-right: 24px;
 }
 
 .nav__item--about {
@@ -47,6 +44,11 @@
   cursor: pointer;
 }
 
+.nav__item--catalogue {
+  padding-right: 24px;
+  padding-bottom: 0;
+}
+
 .nav__submenu {
   display: none;
   position: absolute;
@@ -61,7 +63,7 @@
   display: block;
 }
 
-.nav__item:hover .nav__link {
+.nav__item:not(.nav__item--catalogue):hover .nav__link {
   color: $font-color__nav--hover;
 
   &::before {
@@ -218,6 +220,7 @@
 
   .nav__item--catalogue {
     padding-left: 0;
+    padding-bottom: 18px;
     padding-right: 0;
     text-align: center;
   }

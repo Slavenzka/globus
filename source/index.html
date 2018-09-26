@@ -572,7 +572,7 @@
           Оставьте свои контакты и мы пришлём вам полный каталог оборудования на электронную почту!
         </p>
         <form action="#">
-          <input class="order__email" type="email" placeholder="Ваш e-mail">
+          <input class="order__email" type="email" placeholder="Ваш e-mail" required>
           <input class="order__phone" type="tel" placeholder="Ваш телефон">
           <button class="button order__button" type="submit">
             Получить каталог
@@ -675,26 +675,68 @@
             </svg>
             Предыдущее событие
           </button>
-          <figure class="events__illustration">
-            <div class="events__target">
-              <picture>
-                <source type="image/webp" srcset="img/non-content/events__zebra@1x.webp 1x, img/non-content/events__zebra@2x.webp 2x">
-                <img class="events__target-img" src="img/non-content/events__zebra@1x.jpg" srcset="img/non-content/events__zebra@1x.jpg 1x, img/non-content/events__zebra@2x.jpg 2x" alt="Фотография зебры">
-              </picture>
-            </div>
-            <div class="events__device">
-              <picture>
-                <source type="image/webp" srcset="img/non-content/events__device@1x.webp 1x, img/non-content/events__device@1x.webp 2x">
-                <img class="events__device-img" src="img/non-content/events__device@1x.jpg" srcset="img/non-content/events__device@1x.jpg 1x, img/non-content/events__device@1x.jpg 2x" alt="Фотография использованного прибора">
-              </picture>
-            </div>
-            <figcaption class="events__title">
-              Рентген зебры в Казани
-              <span class="events__date">
-                15 июля 2018
-              </span>
-            </figcaption>
-          </figure>
+          <ul class="events__list">
+            <li class="events__item events__item--selected">
+              <figure class="events__illustration">
+                <div class="events__target">
+                  <picture>
+                    <img class="events__target-img" src="img/non-content/events__zebra@1x.jpg" alt="Фотография зебры">
+                  </picture>
+                </div>
+                <div class="events__device">
+                  <picture>
+                    <img class="events__device-img" src="img/non-content/events__device@1x.jpg" alt="Фотография использованного прибора">
+                  </picture>
+                </div>
+                <figcaption class="events__title">
+                  Рентген зебры в Казани
+                  <span class="events__date">
+                    15 июля 2018
+                  </span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="events__item">
+              <figure class="events__illustration">
+                <div class="events__target">
+                  <picture>
+                    <img class="events__target-img" src="img/non-content/events__zebra@1x.jpg" alt="Фотография зебры">
+                  </picture>
+                </div>
+                <div class="events__device">
+                  <picture>
+                    <img class="events__device-img" src="img/images__img--1.jpg" alt="Фотография использованного прибора">
+                  </picture>
+                </div>
+                <figcaption class="events__title">
+                  Событие №2
+                  <span class="events__date">
+                    27 сентября 2018
+                  </span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="events__item">
+              <figure class="events__illustration">
+                <div class="events__target">
+                  <picture>
+                    <img class="events__target-img" src="img/non-content/events__zebra@1x.jpg" alt="Фотография зебры">
+                  </picture>
+                </div>
+                <div class="events__device">
+                  <picture>
+                    <img class="events__device-img" src="img/catalog__item--1@1x.jpg" alt="Фотография использованного прибора">
+                  </picture>
+                </div>
+                <figcaption class="events__title">
+                  Событие №3
+                  <span class="events__date">
+                    01 января 2079
+                  </span>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
           <button class="events__button events__button--next">
             <svg class="events__arrow" width="22" height="18" viewbox="0 0 22 18">
               <use xlink:href="#events__arrow"></use>
@@ -713,7 +755,7 @@
           10 шагов для получения лицензии на рентген
         </p>
         <form class="license__form" action="#">
-          <input class="license__email" type="email" placeholder="Ваш e-mail">
+          <input class="license__email" type="email" placeholder="Ваш e-mail" reqiured>
           <input class="license__phone" type="tel" placeholder="Ваш телефон">
           <button type="submit" class="license__button button">
             Получить инструкцию
@@ -1009,5 +1051,6 @@
   <script src="js/footer-menu.js"></script>
   <script src="js/promotion-slider.js"></script>
   <script src="js/reviews-slider.js"></script>
+  <script src="js/events-slider.js"></script>
 </body>
 </html>

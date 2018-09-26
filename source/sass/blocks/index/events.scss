@@ -70,6 +70,20 @@
   transform: rotate(180deg);
 }
 
+.events__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.events__item {
+  display: none;
+}
+
+.events__item--selected {
+  display: block;
+}
+
 .events__illustration {
   position: relative;
   margin: 0;
@@ -85,8 +99,6 @@
 .events__target-img {
   margin-top: -3px;
   margin-left: -195px;
-  width: 509px;
-  height: 382px;
 }
 
 .events__device {
@@ -99,13 +111,13 @@
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 10px 25px 0 $shadow-color__device;
+  text-align: center;
 }
 
 .events__device-img {
   margin-top: 24px;
-  margin-left: 17px;
-  width: 66px;
-  height: 53px;
+  max-width: 66%;
+  max-height: 66%;
 }
 
 .events__title {

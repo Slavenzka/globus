@@ -90,6 +90,9 @@
 }
 
 .events__target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 306px;
   height: 306px;
   border-radius: 50%;
@@ -97,8 +100,8 @@
 }
 
 .events__target-img {
-  margin-top: -3px;
-  margin-left: -195px;
+  // margin-top: -3px;
+  // margin-left: -195px;
 }
 
 .events__device {

@@ -69,16 +69,34 @@ li.slider__shown {
   src: url("../fonts/FuturaPTLight.woff2") format("woff2"), url("../fonts/FuturaPTLight.woff") format("woff"); }
 
 @font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff"); }
+
+@font-face {
   font-family: "Futura";
   font-weight: 400;
   font-display: swap;
   src: url("../fonts/FuturaPTBook.woff2") format("woff2"), url("../fonts/FuturaPTBook.woff") format("woff"); }
 
 @font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"); }
+
+@font-face {
   font-family: "Futura";
   font-weight: 500;
   font-display: swap;
   src: url("../fonts/FuturaPTMedium.woff2") format("woff2"), url("../fonts/FuturaPTMedium.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"); }
 
 @font-face {
   font-family: "Futura";
@@ -91,6 +109,12 @@ li.slider__shown {
   font-weight: 700;
   font-display: swap;
   src: url("../fonts/FuturaPTBold.woff2") format("woff2"), url("../fonts/FuturaPTBold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff"); }
 
 .header-main {
   width: 100%;
@@ -105,7 +129,7 @@ li.slider__shown {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-family: "Futura", "Arial", sans-serif; }
+  font-family: "Roboto", "Arial", sans-serif; }
 
 .header-main__link {
   width: 50%;
@@ -114,7 +138,7 @@ li.slider__shown {
 .header-main__contacts {
   padding-top: 24px;
   width: 50%;
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 400;
   color: black;
   letter-spacing: 0.35px;
@@ -127,7 +151,7 @@ li.slider__shown {
   position: relative;
   margin: 0;
   margin-top: 11px;
-  font-size: 23px;
+  font-size: 21px;
   letter-spacing: 1.4px; }
   .header-main__phone::before {
     content: "Звонок по России";
@@ -218,10 +242,9 @@ li.slider__shown {
   margin-top: -11px;
   margin-left: 26px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 22px;
-  color: black;
-  letter-spacing: 0.55px; }
+  color: black; }
 
 @media (max-width: 767px) {
   .logo {
@@ -285,7 +308,7 @@ li.slider__shown {
   display: block;
   padding-bottom: 18px;
   font-family: "Futura", "Arial", sans-serif;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 18px;
   color: black;

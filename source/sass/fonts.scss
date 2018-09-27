@@ -8,6 +8,15 @@
 }
 
 @font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url("../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto-Light.woff") format("woff");
+}
+
+@font-face {
   font-family: "Futura";
   font-weight: 400;
   font-display: swap;
@@ -17,12 +26,30 @@
 }
 
 @font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
   font-family: "Futura";
   font-weight: 500;
   font-display: swap;
   src:
     url("../fonts/FuturaPTMedium.woff2") format("woff2"),
     url("../fonts/FuturaPTMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
 }
 
 @font-face {
@@ -41,4 +68,13 @@
   src:
     url("../fonts/FuturaPTBold.woff2") format("woff2"),
     url("../fonts/FuturaPTBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
 }

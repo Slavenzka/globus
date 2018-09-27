@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-family: $font-family__main;
+  font-family: $font-family__aux;
 }
 
 .header-main__link {
@@ -18,7 +18,7 @@
 .header-main__contacts {
   padding-top: 24px;
   width: 50%;
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 400;
   color: $font-color__main;
   letter-spacing: 0.35px;
@@ -33,7 +33,7 @@
   position: relative;
   margin: 0;
   margin-top: 11px;
-  font-size: 23px;
+  font-size: 21px;
   letter-spacing: 1.4px;
 
   &::before {

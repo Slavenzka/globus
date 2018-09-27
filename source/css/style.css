@@ -66,30 +66,35 @@ li.slider__shown {
   font-family: "Futura";
   font-weight: 300;
   font-display: swap;
+  font-style: normal;
   src: url("../fonts/FuturaPTLight.woff2") format("woff2"), url("../fonts/FuturaPTLight.woff") format("woff"); }
 
 @font-face {
   font-family: "Futura";
   font-weight: 400;
   font-display: swap;
+  font-style: normal;
   src: url("../fonts/FuturaPTBook.woff2") format("woff2"), url("../fonts/FuturaPTBook.woff") format("woff"); }
 
 @font-face {
   font-family: "Futura";
   font-weight: 500;
   font-display: swap;
+  font-style: normal;
   src: url("../fonts/FuturaPTMedium.woff2") format("woff2"), url("../fonts/FuturaPTMedium.woff") format("woff"); }
 
 @font-face {
   font-family: "Futura";
   font-weight: 600;
   font-display: swap;
+  font-style: normal;
   src: url("../fonts/FuturaPTHeavy.woff2") format("woff2"), url("../fonts/FuturaPTHeavy.woff") format("woff"); }
 
 @font-face {
   font-family: "Futura";
   font-weight: 700;
   font-display: swap;
+  font-style: normal;
   src: url("../fonts/FuturaPTBold.woff2") format("woff2"), url("../fonts/FuturaPTBold.woff") format("woff"); }
 
 .header-main {
@@ -105,7 +110,7 @@ li.slider__shown {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-family: "Montserrat", "Arial", sans-serif; }
+  font-family: "Futura", "Arial", sans-serif; }
 
 .header-main__link {
   width: 50%;
@@ -114,7 +119,7 @@ li.slider__shown {
 .header-main__contacts {
   padding-top: 24px;
   width: 50%;
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 400;
   color: black;
   letter-spacing: 0.35px;
@@ -127,7 +132,7 @@ li.slider__shown {
   position: relative;
   margin: 0;
   margin-top: 11px;
-  font-size: 21px;
+  font-size: 23px;
   letter-spacing: 1.4px; }
   .header-main__phone::before {
     content: "Звонок по России";
@@ -218,7 +223,7 @@ li.slider__shown {
   margin-top: -11px;
   margin-left: 26px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 22px;
   color: black;
   letter-spacing: 0.55px; }
@@ -284,13 +289,13 @@ li.slider__shown {
   position: relative;
   display: block;
   padding-bottom: 18px;
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Futura", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 18px;
   color: black;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   cursor: pointer; }
 
 .nav__item--catalogue {

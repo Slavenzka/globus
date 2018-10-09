@@ -46,7 +46,8 @@
 }
 
 .gallery__item--selected {
-  border: 5px solid $border-color__highlight;
+  outline: 5px solid $border-color__highlight;
+  outline-offset: -5px;
 }
 
 .gallery__item {

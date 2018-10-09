@@ -3879,7 +3879,8 @@ li.slider__shown {
   overflow: hidden; }
 
 .gallery__item--selected {
-  border: 5px solid #aa242e; }
+  outline: 5px solid #aa242e;
+  outline-offset: -5px; }
 
 .gallery__item {
   display: inline-block;

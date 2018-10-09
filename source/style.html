@@ -41,6 +41,12 @@
     <symbol id="reviews__arrow">
       <path fill-rule="evenodd" d="M42.017,10.969 L6.825,10.969 L10.463,14.591 C11.241,15.365 11.241,16.620 10.463,17.395 C9.686,18.169 8.424,18.169 7.647,17.395 L0.606,10.385 C-0.172,9.611 -0.172,8.355 0.606,7.581 L7.647,0.570 C8.424,-0.203 9.686,-0.203 10.463,0.570 C11.241,1.345 11.241,2.600 10.463,3.374 L6.822,7.000 L42.017,7.000 C43.112,7.000 44.000,7.887 44.000,8.983 L44.000,8.986 C44.000,10.081 43.112,10.969 42.017,10.969 Z"/>
     </symbol>
+    <symbol id="report__arrow">
+      <path fill-rule="evenodd" d="M13.364,1.706 L7.707,7.362 C7.316,7.753 6.683,7.753 6.293,7.362 L0.636,1.706 C0.245,1.314 0.245,0.682 0.636,0.291 C1.026,-0.100 1.660,-0.100 2.050,0.291 L7.000,5.241 L11.950,0.291 C12.340,-0.100 12.973,-0.100 13.364,0.291 C13.754,0.682 13.754,1.314 13.364,1.706 Z"/>
+    </symbol>
+    <symbol id="checkbox__mark">
+      <path fill-rule="evenodd"  fill="rgb(170, 36, 46)" d="M11.364,1.705 L4.707,8.361 C4.316,8.753 3.683,8.753 3.293,8.361 L0.636,5.705 C0.245,5.314 0.245,4.682 0.636,4.291 C1.026,3.899 1.660,3.899 2.050,4.291 L4.000,6.241 L9.950,0.291 C10.340,-0.100 10.973,-0.100 11.364,0.291 C11.754,0.682 11.754,1.314 11.364,1.705 Z"/>
+    </symbol>
   </svg>
 
   <header class="header-main" id="page-top">
@@ -316,7 +322,7 @@
         </div>
         <div class="text__slider gallery">
           <div class="gallery__large">
-            <img src="" alt="">
+            <img class="gallery__image-large" src="" alt="">
           </div>
           <div class="gallery__wrapper">
             <ul class="gallery__list">
@@ -425,7 +431,61 @@
     </section>
     <section class="styleguide">
       <div class="container">
-
+        <div class="styleguide__wrapper">
+          <fieldset class="styleguide__block1">
+            <input class="styleguide__email" type="email" placeholder="Ваш e-mail">
+            <div class="styleguide__select-wrapper">
+              <svg class="styleguide__icon" width="14" height="8" viewbox="0 0 14 8">
+                <use xlink:href="#report__arrow"></use>
+              </svg>
+              <select class="styleguide__select" name="select">
+                <option value="1" selected>Выездной рентген зебры</option>
+                <option value="2">Globus Vet является</option>
+                <option value="3">Постоянным участником</option>
+                <option value="4">Региональных и всероссийских</option>
+                <option value="5">Выставок оборудования для</option>
+                <option value="6">Ветеринарных клиник</option>
+                <option value="7">Конференций и семинаров</option>
+              </select>
+            </div>
+          </fieldset>
+          <fieldset class="styleguide__block2">
+            <button class="button styleguide__button1" type="button">
+              Получить инструкцию
+            </button>
+            <button class="button styleguide__button2" type="button">
+              Получить инструкцию
+            </button>
+            <input type="checkbox" class="styleguide__check" id="checkbox1" name="style-checkbox">
+              <label class="styleguide__label" for="checkbox1">
+                Globus Vet является
+                <svg class="styleguide__check-icon" width="12" height="9" viewbox="0 0 12 9">
+                  <use xlink:href="#checkbox__mark"></use>
+                </svg>
+              </label>
+            </input>
+            <input type="checkbox" class="styleguide__check" id="checkbox2" name="style-checkbox" checked>
+              <label class="styleguide__label" for="checkbox2">
+                Постоянным участником
+                <svg class="styleguide__check-icon" width="12" height="9" viewbox="0 0 12 9">
+                  <use xlink:href="#checkbox__mark"></use>
+                </svg>
+              </label>
+            </input>
+            <fieldset class="styleguide__radios">
+              <input type="radio" class="styleguide__radio" id="radio1" name="style-radio">
+                <label class="styleguide__label" for="radio1">
+                  Globus Vet является
+                </label>
+              </input>
+              <input type="radio" class="styleguide__radio" id="radio2" name="style-radio" checked>
+                <label class="styleguide__label" for="radio2">
+                  Постоянным участником
+                </label>
+              </input>
+            </fieldset>
+          </fieldset>
+        </div>
       </div>
     </section>
   </main>
